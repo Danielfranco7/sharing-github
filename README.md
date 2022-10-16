@@ -28,20 +28,21 @@ using the f1 score.
 3 Datasets
 
 You have access to two different datasets:
-    1. The training set should be used to build your machine learning models. In this
-    set, you also have the ground truth associated to each patient, i.e., if the patient
-    has the disease (Disease = 1) or not (Disease = 0). Is composed by:
-    train demo.csv - the training set for demographic data and the target
-    train health.csv - the training set for health related data
-    train habits.csv - the training set for habits related data
+
+1. The training set should be used to build your machine learning models. In this
+set, you also have the ground truth associated to each patient, i.e., if the patient
+has the disease (Disease = 1) or not (Disease = 0). Is composed by:
+        • train demo.csv - the training set for demographic data and the target
+        • train health.csv - the training set for health related data
+        • train habits.csv - the training set for habits related data
     
 2. The test set should be used to see how well your model performs on unseen
 data. In this set you don’t have access to the ground truth, and the goal of
 your team is to predict that value (0 or 1) by using the model you created using
 the training set. Is composed by:
-    test demo.csv - the test set for demographic data
-    test health.csv - the test set for health related data
-    test habits.csv - the test set for habits related data
+        • test demo.csv - the test set for demographic data
+        • test health.csv - the test set for health related data
+        • test habits.csv - the test set for habits related data
     
 The available data contains the following attributes:
   Sociodemographic Data:
@@ -58,9 +59,7 @@ The available data contains the following attributes:
      • PatientID The unique identifier of the patient
      • Height Patient’s height
      • Weight Patient’s weight
-     • Checkup Answer to the question: How long has it been since you last visited a doctor for a routine Checkup? [A routine
-     • Checkup is a general physical exam, not an exam for a
-     • specific injury, illness, or condition.]
+     • Checkup Answer to the question: How long has it been since you last visited a doctor for a routine Checkup? [A routine Checkup is a general physical exam, not an exam for a specific injury, illness, or condition.]
      • Diabetes Answer to the question: (Ever told) you or your direct relatives have diabetes?
      • HighCholesterol Cholesterol value
      • BloodP ressure Blood Pressure in rest value
